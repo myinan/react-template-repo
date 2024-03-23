@@ -1,2 +1,2 @@
 # react-template-repo
-Template repository for React projects.
+### Template repository for React projects.
