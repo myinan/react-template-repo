@@ -1,10 +1,20 @@
 import "../styles/App.css";
+import { useState } from "react";
 
 function App() {
+  const [heading, setHeading] = useState("Magnificent Monkeys");
+
+  const clickHandler = () => {
+    setHeading("Radical Rhinos");
+  };
+
   return (
-    <div className="app">
-      <h1>Hello World!</h1>
-    </div>
+    <>
+      <button type="button" onClick={clickHandler}>
+        Click Me
+      </button>
+      <h1>{heading}</h1>
+    </>
   );
 }
 
