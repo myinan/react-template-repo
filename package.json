@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "react": "",
-    "react-dom": ""
+    "react-dom": "",
+    "react-router-dom": ""
   },
   "devDependencies": {
     "@testing-library/jest-dom": "",
