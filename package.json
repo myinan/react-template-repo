@@ -14,7 +14,8 @@
   "dependencies": {
     "react": "",
     "react-dom": "",
-    "react-router-dom": ""
+    "react-router-dom": "",
+    "styled-components": ""
   },
   "devDependencies": {
     "@testing-library/jest-dom": "",
