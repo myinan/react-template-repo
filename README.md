@@ -15,7 +15,7 @@
   },
   ```
   - **Prettier-Code Formatter**: Integrates Prettier into VS Code. This extension will use prettier from your project's local dependencies.
-  Setting the following rule on **settings.json** will automatically format the `.js`, `.jsx` and `.css` files when you save(ctrl+s):
+  Setting the following rule on **settings.json** will automatically format the `.js`, `.jsx`, `.ts`, `.tsx` and `.css` files when you save(ctrl+s):
   ```json
   "editor.defaultFormatter": "esbenp.prettier-vscode",
     "[javascript]": {
@@ -23,6 +23,14 @@
       "editor.formatOnSave": true
     },
     "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode",
       "editor.formatOnSave": true
     },
