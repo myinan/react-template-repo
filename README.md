@@ -1,7 +1,7 @@
 # React Template Repository
 ### Template repository for React projects.
 
-- `Node.js` and `npm` are installed globally. Dependencies of projects are managed locally.<br>
+- `node.js`, `npm`, `typescript` and `@types/node` packages are installed globally. Dependencies of projects are managed locally.<br>
   Use the `nvm install --lts` command to install the latest Node.js version, with Node Version Manager (When you use NVM to update Node.js, it also updates npm to the latest version that corresponds to the installed Node.js version.).
 
 - After running the command `npm install` locally to install dependencies, run the command `npm update --save-dev` to update your project's package.json file to include dependency versions.
